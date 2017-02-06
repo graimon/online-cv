@@ -1,0 +1,108 @@
+site:
+  title: "Mi CV"
+
+career:
+  title: Sobre mi Carrera Profesional
+  p1: Me gusta definirme como un <b>amante de lo Digital y de las TI</b>. Todo comenzó en 2002 (¡hace ya 15 años!) como un programador sin experiencia, pero con muchas ganas de aprender, y he ido evolucionado hasta convertirme en <b>Gestor de proyectos y equipos TI</b>.
+  p2: Conocí el framewrok Ruby on Rails en 2005 (versión 0.9.x). Cuando empecé a desarrollar, me di cuenta de que había encontrado una herramienta y metodología muy potente, y la incorporé rápidamente. Pero no podía imaginar el impacto que ha terminado teniendo en mi carrera.
+  p3: Aunque he estado involucrado en proyectos de diferente índole, usando diferentes leguajes, tecnologías y gestores de base de datos.
+  p4: "Tengo experiencia en todas las fases de la implementación de un proyecto: <b>Análisis, Diseño, Desarrollo, Testing, Despliegue y Evolución Contínua</b>."
+  p5: Soy partidario de usar <b>Metodologías Agile</b> para planificar y organizar un proyecto, aunque siempre intento de ajustar la metodología al equipo con el que trabajo, para maximizar la productividad.
+  p6: También tengo experiencia en Sistemas, sus requisitos e instalación de software necesario. He usado varios Proveedores Cloud y conseguido solucionar diferentes problemas de escalabilidad.
+  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. LLevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo esparcido alrededor de España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
+
+education:
+  title: Formación
+  mgti: Máster en Dirección y Gestión Tecnológica
+  mgti_at: La Salle (Universidad Ramon Llull) @ Barcelona
+  ie: Ingeniero Técnico en Informática de Gestión
+  ie_at: Facultad de Informática de Barcelona (FIB - UPC) 
+
+experiences:
+  title: Experiencia Profesional
+  present: Actualidad
+  iadbox:
+    title: Gestor del equipo IT, analista y programador.
+    p1: Junto con un <b>excelente equipo</b> de entre 6 y 8 miembros, hemos desarrollado una <b>plataforma móvil de marketing y publicidad no intrusiva </b>para ser embedida en <b>aplicaciones Android y iOS, así como en webs móviles</b>.
+    p2: Esta plataforma identifica cada usuario único de la App o Web y le sirve contenido exclusivo en forma de un Bandeja de entrada.
+    p3: Mientras escribo este CV, tenemos al rededor de <b>70 millones de usuarios</b>, procesando una media de <b>3.000 peticiones por minuto</b>, con picos de uso de hasta <b>20.000 rpm</b>.
+    p4: Toda la plataforma se controla desde un backend donde se pueden segmentar los usuarios por más de <b>50 filtros diferentes</b>, crear mensajes multimedia y publicarlos a dichos usuarios, obteniendo informes detallados de cada campaña.
+    p5: "Hemos estado siguiendo una <b>Arquitectura basada en Microservicios</b>, creando varios servicios pequeños permitiendo solucionar cada uno de los retos encontrados.
+Usando: 
+<ul>
+<li>Diferentes lenguajes de programación: <b>Ruby, Java y Elixir</b></li>
+<li>Diferentes gestores de Base de Datos: <b>MySQL, PostgreSQL y MongoDB</b></li>
+<li>Diferentes protocolos de comunicación API: <b>HTTP y RabbitMQ</b></li>
+</ul>"
+    p6: Todo esto está desplegado en <b>Amazon AWS</b>, usando varias instancias pequeñas, <b>balanceando</b> las peticiones y usando <b>autoescalado</b> para absorver los picos de uso. Utilizamos <b>Jenkins</b> como herramienta de compilado y despliegue de cada servicio. En definitiva, hemos sido capaces de construir una <b>solución robusta, escalable y eficiente en costes</b>.
+    p7: "En este proyecto, mis funciones han sido:
+<ul>
+<li>Gestionar al equipo multidisciplinar y los diferentes proyectos, <b> priorizando tareas</b> de cada miembro.</li>
+<li>Planificar los proyectos y entregables utilizando <b>metodologías Agile</b>.</li>
+<li>Analizar los diferentes retos encontrados y, junto con las aportaciones de mi equipo, <b>tomar decisiones técnicas clave para solucionarlos</b>.</li>
+<li>Reforzar el uso de TDD (Desarrollo basado en Tests).</li>
+<li>Desarrollo y mantenimiento de la mayoría de nuestros servicios <b>Ruby y Java</b>.</li>
+<li><b>Informar a negocio</b> de la evolución de los proyectos y <b>obtener requisitos y feedback</b>.</li>
+</ul>"
+    p8: Para más información sobre la plataforma visita <a href='http://www.iadbox.com'>www.iadbox.com</a>.
+
+  qustodian:
+    title: Analista - Programador
+    p1: Qustodian es una <b>App móvil</b> (para iOS y Android) que permite recibir Anuncios y Ofertas personalizadas y <b>remunerar a los usuarios</b> por ello.
+    p2: En la industria de la publicidad online existe un gran número de intermediarios sacando provecho de nuestros perfiles digitales sin nuestros consentimiento ni control.
+    p3: El objetivo de Qustodian es <b>custodiar los perfiles de los usuarios</b>, para servir solo anuncios consentidos y que aporten valor, <b>dando el control a los usuarios</b> de lo que quieren ver y, por último, bonificarles por viendo dicha publicidad, como señal de agradecimiento.
+    p4: <b>Mi rol</b> en este proyecto era el de <b>analizar, desarrollar y mantener el Backend de la plataforma</b> usando <b>Ruby on Rails y MySQL</b>, desarrollando complejas funcionalidades. Empecé siendo el <b>primer técnico</b> de la empresa, y terminamos siendo un equipo de 6 desarrolladores, estando siempre involucrado en la <b>toma de decisiones técnicas clave</b>.
+    p5: Para más información sobre la App Qustodian visita <a href='http://es.qustodian.com'>es.qustodian.com</a>.
+
+  interfaz:
+    title: Analista - Programador
+    p1: <b>Programador principal</b> en una pequña empresa, ofreciendo soluciones técnicas, especializada en Streaming de Video en Móbil, comunicación SMS y ingestión y transformación de XML.
+    p2: Situémonos en la <b>época pre-Smpartphone</b>, con una gran cantidad diferente de dispositivos, pantallas pequeñas y lenta conexión a internete. El iPhone (1ª generación) acababa de salir, disponíamos de plataformas como Nokia (Symbian), Blackberry, SonyEricsson y muchos más.
+    p3: Nos dedicábamos, sobretodo, a <b>construir web móviles</b>, sirviendo el contenido más adecuado de <b>imágenes y vídeos ajustandonos al tamaño de las pantallas y velocidad de conexión</b>. Cuando en esa época <b>el término Responsive todavía ni existía</b>.
+    p4: "A continuación un listado de proyectos que he desarrollado:
+<ul>
+<li>Plataforma de envío de alertas y de encuestas mediante SMS, integrándonos con varias APIs para envío y recibo de SMS, conseguimos elaborar encuestas completas, enviando pregunta por pregunta mediante SMS, reciviendo las respuestas y analizándolas programáticamente para decidir la siguiente pregunta. Desarrollado en Ruby on Rails.</li>
+<li>Desarrollo un sistema de plantillas, capaz de crear fácilmente webs móviles con contenido exclusivo de imágenes y vídeos. Todos los vídeos eran codificados usando ffmpeg y servidos mediante Streaming o Descarga progresiva. Se crearon varias webs, incluyendo canales de TV y adaptando todo tipo de páginas de vídeos para ser visualizadas desde el móvil. Desarrollada en Ruby on Rails.</li>
+<li>Desarrollo de una herramienta para combinar 2 vídeos (codificados en 3gp) en un solo video en tiempo de ejecución. Se utilizaba para insertar dinámicamente anuncios antes de los videos con contenido. Algo parecido a lo que hacen Youtube y muchas otras plataformas a día de hoy. Desarrollado en C.</li>
+<li>Desarrollo del Backend para iSports, una aplicación para iPhone, que mostraba resultados en Tiempo Real de varios eventos deportivos. Básicamente, consumía miles de datos XML y los transformaba usando XSLT.</li>
+<li>Desarrollo del portal http://myfanflash.com donde se permitía a los usuarios seguir y obtener noticias y actualizaciones de varios deportes, ligas, equipos y/o jugadores. El contenido se obtenía mediante la ingestión de miles de feeds RSS, era procesado e insertado en una base de datos Solr (de tipo documental). Desarrollado en Ruby on Rails.</li>
+</ul>"
+    p5: "Otras responsabilidades:
+<ul>
+<li>Mantenimiento de los servidores Linux e instalación del software y librerías, preparando los servidores para nuestras aplicaciones en producción.</li>
+<li>Instalación e integración del Darwin Streaming Sever, permitiendo servir videos mediante Streaming RTSP.</li>
+<li>Gran conocimiento de la herramienta de codificación de video ffmpeg.</li>
+</ul>"
+
+  sadiel:
+    title: Programador Senior Java
+    p1: Sadiel es una Consultora de IT, en ese momento disponían de más de 400 empleados técnicos. Formaba parte de un gran equipo de desarrollo y mantenimiento de proyectos para la Generalitat de Cataluña.
+    p2: Desarrollando con Java J2EE, usando un framework específico para la Generalitat llamado openFrame, basado en Struts, Spring y Hibernate.
+    p3: Tuve la oportunidad de integrar Lucene (herramienta de indexado y búsqueda documental) usando Hibernate, permitiendo usar esta utilidad en varios proyectos.
+    p4: También estuve a cargo de la formación de programadores Junior.
+
+interests:
+  title: Intereses
+  p1: Familia & Amigos
+  p2: Viajar
+  p3: Snowboard & Ski
+  p4: Kite Surf
+  p5: Fútbol
+
+languages:
+  title: Idiomas
+  p1: Español <span class='lang-desc'>(Nativo)</span>
+  p2: Catalan <span class='lang-desc'>(Nativo)</span>
+  p3: Inglés <span class='lang-desc'>(Fluido)</span>
+  p4: Portugués <span class='lang-desc'>(Básico)</span>
+  p5: Francés <span class='lang-desc'>(Básico)</span>
+
+projects:
+  title: Proyectos
+  intro: A continuación incluyo una corta lista de proyectos Open Source que he desarrollado o en los que he participado de alguna manera.
+  liebre: Una gema de Ruby que se encarga de la comunicación con RabbitMQ.
+  resque: Una pequeña contribución para soportar Reque hooks en este plugin para Resque.
+  sneakers: Una pequeña contribución para añadir cabeceras a los mensajes de RabbitMQ que han dado error.
+  
+skills:
+  title: Habilidades y Conocimientos

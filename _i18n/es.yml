@@ -1,15 +1,17 @@
 site:
   title: "Mi CV"
+  description: "CV y Resumen de mi carrera profesional"
+  tagline: Gestor de equipos TI / Consultor / Analista / Programador
 
 career:
   title: Sobre mi Carrera Profesional
   p1: Me gusta definirme como un <b>amante de lo Digital y de las TI</b>. Todo comenzó en 2002 (¡hace ya 15 años!) como un programador sin experiencia, pero con muchas ganas de aprender, y he ido evolucionado hasta convertirme en <b>Gestor de proyectos y equipos TI</b>.
   p2: Conocí el framewrok Ruby on Rails en 2005 (versión 0.9.x). Cuando empecé a desarrollar, me di cuenta de que había encontrado una herramienta y metodología muy potente, y la incorporé rápidamente. Pero no podía imaginar el impacto que ha terminado teniendo en mi carrera.
-  p3: Aunque he estado involucrado en proyectos de diferente índole, usando diferentes leguajes, tecnologías y gestores de base de datos.
+  p3: En toda mi carrera profesional he estado involucrado en proyectos de diferente índole, usando diferentes leguajes, tecnologías y gestores de base de datos.
   p4: "Tengo experiencia en todas las fases de la implementación de un proyecto: <b>Análisis, Diseño, Desarrollo, Testing, Despliegue y Evolución Contínua</b>."
   p5: Soy partidario de usar <b>Metodologías Agile</b> para planificar y organizar un proyecto, aunque siempre intento de ajustar la metodología al equipo con el que trabajo, para maximizar la productividad.
   p6: También tengo experiencia en Sistemas, sus requisitos e instalación de software necesario. He usado varios Proveedores Cloud y conseguido solucionar diferentes problemas de escalabilidad.
-  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. LLevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo esparcido alrededor de España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
+  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. LLevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo repartido por toda España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
 
 education:
   title: Formación
@@ -49,29 +51,29 @@ Usando:
   qustodian:
     title: Analista - Programador
     p1: Qustodian es una <b>App móvil</b> (para iOS y Android) que permite recibir Anuncios y Ofertas personalizadas y <b>remunerar a los usuarios</b> por ello.
-    p2: En la industria de la publicidad online existe un gran número de intermediarios sacando provecho de nuestros perfiles digitales sin nuestros consentimiento ni control.
-    p3: El objetivo de Qustodian es <b>custodiar los perfiles de los usuarios</b>, para servir solo anuncios consentidos y que aporten valor, <b>dando el control a los usuarios</b> de lo que quieren ver y, por último, bonificarles por viendo dicha publicidad, como señal de agradecimiento.
+    p2: En la industria de la publicidad online existe un gran número de intermediarios sacando provecho de nuestros perfiles digitales sin nuestro consentimiento ni control.
+    p3: El objetivo de Qustodian es <b>custodiar los perfiles de los usuarios</b>, para servir solo anuncios consentidos y que aporten valor, <b>dando el control a los usuarios</b> de lo que quieren ver y, por último, bonificarles por ver dicha publicidad, como señal de agradecimiento.
     p4: <b>Mi rol</b> en este proyecto era el de <b>analizar, desarrollar y mantener el Backend de la plataforma</b> usando <b>Ruby on Rails y MySQL</b>, desarrollando complejas funcionalidades. Empecé siendo el <b>primer técnico</b> de la empresa, y terminamos siendo un equipo de 6 desarrolladores, estando siempre involucrado en la <b>toma de decisiones técnicas clave</b>.
     p5: Para más información sobre la App Qustodian visita <a href='http://es.qustodian.com'>es.qustodian.com</a>.
 
   interfaz:
     title: Analista - Programador
-    p1: <b>Programador principal</b> en una pequña empresa, ofreciendo soluciones técnicas, especializada en Streaming de Video en Móbil, comunicación SMS y ingestión y transformación de XML.
-    p2: Situémonos en la <b>época pre-Smpartphone</b>, con una gran cantidad diferente de dispositivos, pantallas pequeñas y lenta conexión a internete. El iPhone (1ª generación) acababa de salir, disponíamos de plataformas como Nokia (Symbian), Blackberry, SonyEricsson y muchos más.
-    p3: Nos dedicábamos, sobretodo, a <b>construir web móviles</b>, sirviendo el contenido más adecuado de <b>imágenes y vídeos ajustandonos al tamaño de las pantallas y velocidad de conexión</b>. Cuando en esa época <b>el término Responsive todavía ni existía</b>.
+    p1: <b>Programador principal</b> en una pequña empresa, ofreciendo soluciones técnicas, especializada en Streaming de Video en Móbil, comunicación SMS e ingestión y transformación de XML.
+    p2: Situémonos en la <b>época pre-Smpartphone</b>, con una gran cantidad de diferentes dispositivos, pantallas pequeñas y lenta conexión a internet. El iPhone (1ª generación) acababa de salir, disponíamos de plataformas como Nokia (Symbian), Blackberry, SonyEricsson y muchos más.
+    p3: Nos dedicábamos, sobretodo, a <b>construir web móviles</b>, sirviendo el contenido más adecuado de <b>imágenes y vídeos ajustándonos al tamaño de las pantallas y velocidad de conexión</b>. Cuando en esa época <b>el término Responsive todavía ni existía</b>.
     p4: "A continuación un listado de proyectos que he desarrollado:
 <ul>
 <li>Plataforma de envío de alertas y de encuestas mediante SMS, integrándonos con varias APIs para envío y recibo de SMS, conseguimos elaborar encuestas completas, enviando pregunta por pregunta mediante SMS, reciviendo las respuestas y analizándolas programáticamente para decidir la siguiente pregunta. Desarrollado en Ruby on Rails.</li>
 <li>Desarrollo un sistema de plantillas, capaz de crear fácilmente webs móviles con contenido exclusivo de imágenes y vídeos. Todos los vídeos eran codificados usando ffmpeg y servidos mediante Streaming o Descarga progresiva. Se crearon varias webs, incluyendo canales de TV y adaptando todo tipo de páginas de vídeos para ser visualizadas desde el móvil. Desarrollada en Ruby on Rails.</li>
-<li>Desarrollo de una herramienta para combinar 2 vídeos (codificados en 3gp) en un solo video en tiempo de ejecución. Se utilizaba para insertar dinámicamente anuncios antes de los videos con contenido. Algo parecido a lo que hacen Youtube y muchas otras plataformas a día de hoy. Desarrollado en C.</li>
-<li>Desarrollo del Backend para iSports, una aplicación para iPhone, que mostraba resultados en Tiempo Real de varios eventos deportivos. Básicamente, consumía miles de datos XML y los transformaba usando XSLT.</li>
+<li>Desarrollo de una herramienta para combinar 2 vídeos (codificados en 3gp) en un solo vídeo en tiempo de ejecución. Se utilizaba para insertar dinámicamente anuncios antes de los vídeos con contenido. Algo parecido a lo que hacen Youtube y muchas otras plataformas a día de hoy. Desarrollado en C.</li>
+<li>Desarrollo del Backend para iSports, una App para iPhone, que mostraba resultados en Tiempo Real de varios eventos deportivos. Básicamente, consumía miles de datos XML y los transformaba usando XSLT. Desarrollado en Ruby on Rails.</li>
 <li>Desarrollo del portal http://myfanflash.com donde se permitía a los usuarios seguir y obtener noticias y actualizaciones de varios deportes, ligas, equipos y/o jugadores. El contenido se obtenía mediante la ingestión de miles de feeds RSS, era procesado e insertado en una base de datos Solr (de tipo documental). Desarrollado en Ruby on Rails.</li>
 </ul>"
     p5: "Otras responsabilidades:
 <ul>
 <li>Mantenimiento de los servidores Linux e instalación del software y librerías, preparando los servidores para nuestras aplicaciones en producción.</li>
-<li>Instalación e integración del Darwin Streaming Sever, permitiendo servir videos mediante Streaming RTSP.</li>
-<li>Gran conocimiento de la herramienta de codificación de video ffmpeg.</li>
+<li>Instalación e integración del Darwin Streaming Sever, permitiendo servir vídeos mediante Streaming RTSP.</li>
+<li>Gran conocimiento de la herramienta de codificación de vídeo ffmpeg.</li>
 </ul>"
 
   sadiel:

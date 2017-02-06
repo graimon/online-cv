@@ -1,5 +1,7 @@
 site:
   title: "My Résumé"
+  description: "My CV and Summary of my Career"
+  tagline: IT Team Manager / Consultant / Analist / Ruby Developer
 
 career:
   title: Career Profile

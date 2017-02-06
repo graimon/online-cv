@@ -27,7 +27,7 @@ experiences:
     title: Gestor del equipo IT, analista y programador.
     p1: Junto con un <b>excelente equipo</b> de entre 6 y 8 miembros, hemos desarrollado una <b>plataforma móvil de marketing y publicidad no intrusiva </b>para ser embedida en <b>aplicaciones Android y iOS, así como en webs móviles</b>.
     p2: Esta plataforma identifica cada usuario único de la App o Web y le sirve contenido exclusivo en forma de un Bandeja de entrada.
-    p3: Mientras escribo este CV, tenemos al rededor de <b>70 millones de usuarios</b>, procesando una media de <b>3.000 peticiones por minuto</b>, con picos de uso de hasta <b>20.000 rpm</b>.
+    p3: Mientras escribo este CV, tenemos alrededor de <b>70 millones de usuarios</b>, procesando una media de <b>3.000 peticiones por minuto</b>, con picos de uso de hasta <b>20.000 rpm</b>.
     p4: Toda la plataforma se controla desde un backend donde se pueden segmentar los usuarios por más de <b>50 filtros diferentes</b>, crear mensajes multimedia y publicarlos a dichos usuarios, obteniendo informes detallados de cada campaña.
     p5: "Hemos estado siguiendo una <b>Arquitectura basada en Microservicios</b>, creando varios servicios pequeños permitiendo solucionar cada uno de los retos encontrados.
 Usando: 

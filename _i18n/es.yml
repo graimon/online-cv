@@ -11,7 +11,7 @@ career:
   p4: "Tengo experiencia en todas las fases de la implementación de un proyecto: <b>Análisis, Diseño, Desarrollo, Testing, Despliegue y Evolución Contínua</b>."
   p5: Soy partidario de usar <b>Metodologías Agile</b> para planificar y organizar un proyecto, aunque siempre intento de ajustar la metodología al equipo con el que trabajo, para maximizar la productividad.
   p6: También tengo experiencia en Sistemas, sus requisitos e instalación de software necesario. He usado varios Proveedores Cloud y conseguido solucionar diferentes problemas de escalabilidad.
-  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. LLevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo repartido por toda España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
+  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. Llevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo repartido por toda España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
 
 education:
   title: Formación
@@ -103,7 +103,7 @@ projects:
   title: Proyectos
   intro: A continuación incluyo una corta lista de proyectos Open Source que he desarrollado o en los que he participado de alguna manera.
   liebre: Una gema de Ruby que se encarga de la comunicación con RabbitMQ.
-  resque: Una pequeña contribución para soportar Reque hooks en este plugin para Resque.
+  resque: Una pequeña contribución para soportar Resque hooks en este plugin para Resque.
   sneakers: Una pequeña contribución para añadir cabeceras a los mensajes de RabbitMQ que han dado error.
   
 skills:

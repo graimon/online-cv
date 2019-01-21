@@ -29,5 +29,5 @@ languages: ["es", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
 #Update all the sections by editing the files inside _includes folder.
-gems: 
+plugins:
   - jekyll-multiple-languages-plugin

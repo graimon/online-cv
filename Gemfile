@@ -12,7 +12,7 @@ source "https://rubygems.org"
 
 gem "pry"
 
-gem "jekyll", "3.4.0"
+gem "jekyll", ">=3.8.5"
 
 gem 'jekyll-multiple-languages-plugin'
 

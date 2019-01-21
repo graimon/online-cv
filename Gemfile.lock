@@ -60,7 +60,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     public_suffix (3.0.3)
-    rack (1.6.5)
+    rack (1.6.11)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)

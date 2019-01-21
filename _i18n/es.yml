@@ -1,43 +1,66 @@
 site:
   title: "Mi CV"
   description: "CV y Resumen de mi carrera profesional"
-  tagline: Gestor de equipos TI / Consultor / Analista / Programador
+  tagline: Jefe de Ingeniería / Consultor / Analista / Programador
 
 career:
   title: Sobre mi Carrera Profesional
-  p1: Me gusta definirme como un <b>amante de las Tecnologías digitales y de la Información</b>. Todo comenzó en 2002 (¡hace ya 15 años!) como un programador sin experiencia, pero con muchas ganas de aprender, y he ido evolucionado hasta convertirme en <b>Gestor de proyectos y equipos TI</b>.
+  p1: Me gusta definirme como un <b>amante de las Tecnologías digitales y de la Información</b>. Sobre todo cuando se trata de desarrollar projectos desde cero. Todo comenzó en 2002 (¡hace ya 17  años!) como un programador sin experiencia, pero con muchas ganas de aprender, y he ido evolucionado hasta convertirme en <b>Jefe de Ingeniería</b>.
   p2: Conocí el framewrok Ruby on Rails en 2005 (versión 0.9.x). Cuando empecé a desarrollar, me di cuenta de que había encontrado una herramienta y metodología muy potente, y la incorporé rápidamente. Pero no podía imaginar el impacto que ha terminado teniendo en mi carrera.
   p3: En toda mi carrera profesional he estado involucrado en proyectos de diferente índole, usando diferentes leguajes, tecnologías y gestores de base de datos.
   p4: "Tengo experiencia en todas las fases de la implementación de un proyecto: <b>Análisis, Diseño, Desarrollo, Testing, Despliegue y Evolución Contínua</b>."
   p5: Soy partidario de usar <b>Metodologías Agile</b> para planificar y organizar un proyecto, aunque siempre intento de ajustar la metodología al equipo con el que trabajo, para maximizar la productividad.
   p6: También tengo experiencia en Sistemas, sus requisitos e instalación de software necesario. He usado varios Proveedores Cloud y conseguido solucionar diferentes problemas de escalabilidad.
-  p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. Llevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo repartido por toda España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
+  p7: Actualmente, tengo el privilegio de utilizar mis conocimientos y experiencia en una organización sin ánimo de lucro, cuya misión es promover la educación y la lectura mediante la tecnología, <a href="https://worldreader.org" target="_blank">Worldreader</a>. En mi rol como jefe de ingeniería, estoy a cargo de todos los servicios (API's y Back-Office) que dan soporte a diferentes aplicaciones móviles (propias y de terceros) con la ayuda de un magnífico equipo situado en <b>Barcelona y Accra (Ghana).</b>
+  #p7: Por último, quiero recalcar mi experiencia <b>trabajando en Remoto</b>. Llevo trabajando con esta modalidad durante más de 3 años. He estado viajando por Sudamérica durante 2 años, compaginándolo con el trabajo de desarrollo y de gestión del equipo. Y en este momento me encuentro <b>viviendo en Barcelona</b>, trabajando junto a un equipo repartido por toda España, reportando a las <b>oficinas centrales en Madrid y Londres</b>.
 
 education:
   title: Formación
   mgti: Máster en Dirección y Gestión Tecnológica
   mgti_at: La Salle (Universidad Ramon Llull) @ Barcelona
   ie: Ingeniero Técnico en Informática de Gestión
-  ie_at: Facultad de Informática de Barcelona (FIB - UPC) 
+  ie_at: Facultad de Informática de Barcelona (FIB - UPC)
 
 experiences:
   title: Experiencia Profesional
   present: Actualidad
+
+  worldreader:
+    title: Jefe de ingeniería
+    p1: Worldreader es una ONG cuya misión es conseguir un mundo donde <b>todos tengamos acceso a la lectura</b>. Mediante la tecnología es posible ahorrar los costes de hacer llegar material de lectura de calidad a zonas rurales en países en vías de desarrollo.
+    p2: Disponemos de diferentes aplicaciones Android (como por ejemplo <a href="https://play.google.com/store/apps/details?id=com.worldreader" target="_blank">Worldreader</a>) con una colección gratuita de más de 30.000 libros en 43 idiomas.
+    p3: Así mismo, tenemos proyectos desplegados en países como Ghana, Kenia, Sudáfrica, India, Jordania, entre otros. Cada uno de ellos con necesidades diferentes, en entornos rurales con poca conectividad que nos obligan a desarrollar e implementar soluciones originales y eficaces para hacer llegar nuestros libros mediante Tablets.
+    p4: Junto con un pequeño equipo de 4 integrantes, situados en Barcelona y Accra, nos encargamos del mantenimiento y desarrollo de las API's que dan servicio a las diferentes aplicaciones móviles y a clientes de terceros.
+    p5: "He estado dirigiendo un proceso de reingeniería de los sistemas, preparando una base que nos permita implementar rápidamente las cambiantes necesidades de la organización, así como crecer y escalar en usuarios. Enfocándonos en buenas prácticas como:
+    <ul>
+      <li>Cambiabilidad del código fuente</li>
+      <li>Integración contínua</li>
+      <li>Arquitectura de microservicios</li>
+      <li>Monitorización de los sistemas</li>
+    </ul>"
+    p6: "Nuestro Stack actual está formado por:
+    <ul>
+      <li>NodeJS</li>
+      <li>Angular 7</li>
+      <li>PostgreSQL</li>
+      <li>AWS (CodePipeline, CodeBuild, Elastic Beanstalk, RDS, ...)</li>
+    </ul>"
+
   iadbox:
-    title: Gestor del equipo IT, analista y programador.
-    p1: Junto con un <b>excelente equipo</b> de entre 6 y 8 miembros, hemos desarrollado una <b>plataforma móvil de marketing y publicidad no intrusiva </b>para ser embedida en <b>aplicaciones Android y iOS, así como en webs móviles</b>.
-    p2: Esta plataforma identifica cada usuario único de la App o Web y le sirve contenido exclusivo en forma de un Bandeja de entrada.
-    p3: Mientras escribo este CV, tenemos alrededor de <b>70 millones de usuarios</b>, procesando una media de <b>3.000 peticiones por minuto</b>, con picos de uso de hasta <b>20.000 rpm</b>.
-    p4: Toda la plataforma se controla desde un backend donde se pueden segmentar los usuarios por más de <b>50 filtros diferentes</b>, crear mensajes multimedia y publicarlos a dichos usuarios, obteniendo informes detallados de cada campaña.
-    p5: "Hemos estado siguiendo una <b>Arquitectura basada en Microservicios</b>, creando varios servicios pequeños permitiendo solucionar cada uno de los retos encontrados.
-Usando: 
+    title: Gestor del equipo de ingeniería, analista y programador.
+    p1: Junto con un <b>excelente equipo</b> de entre 6 y 8 miembros, desarrollamos una <b>plataforma móvil de marketing y publicidad no intrusiva </b>para ser embedida en <b>aplicaciones Android y iOS, así como en webs móviles</b>.
+    p2: Esta plataforma identificaba cada usuario único de la App o Web y servía contenido exclusivo en forma de un Bandeja de entrada.
+    p3: Conseguimos tener un máximo de <b>70 millones de usuarios</b>, procesando una media de <b>3.000 peticiones por minuto</b>, con picos de uso de hasta <b>20.000 rpm</b>.
+    p4: Toda la plataforma se controlaba desde un backend donde se podían segmentar los usuarios por más de <b>50 filtros diferentes</b>, crear mensajes multimedia y publicarlos a dichos usuarios, obteniendo informes detallados de cada campaña.
+    p5: "Seguimos una <b>Arquitectura basada en Microservicios</b>, creando varios servicios pequeños permitiendo solucionar cada uno de los retos encontrados.
+Usando:
 <ul>
 <li>Diferentes lenguajes de programación: <b>Ruby, Java y Elixir</b></li>
 <li>Diferentes gestores de Base de Datos: <b>MySQL, PostgreSQL y MongoDB</b></li>
 <li>Diferentes protocolos de comunicación API: <b>HTTP y RabbitMQ</b></li>
 </ul>"
-    p6: Todo esto está desplegado en <b>Amazon AWS</b>, usando varias instancias pequeñas, <b>balanceando</b> las peticiones y usando <b>autoescalado</b> para absorver los picos de uso. Utilizamos <b>Jenkins</b> como herramienta de compilado y despliegue de cada servicio. En definitiva, hemos sido capaces de construir una <b>solución robusta, escalable y eficiente en costes</b>.
-    p7: "En este proyecto, mis funciones han sido:
+    p6: Todo esto se desplegó en <b>Amazon AWS</b>, usando varias instancias pequeñas, <b>balanceando</b> las peticiones y usando <b>autoescalado</b> para absorver los picos de uso. Utilizamos <b>Jenkins</b> como herramienta de compilado y despliegue de cada servicio. En definitiva, fuimos capaces de construir una <b>solución robusta, escalable y eficiente en costes</b>.
+    p7: "En este proyecto, mis funciones fueron:
 <ul>
 <li>Gestionar al equipo multidisciplinar y los diferentes proyectos, <b> priorizando tareas</b> de cada miembro.</li>
 <li>Planificar los proyectos y entregables utilizando <b>metodologías Agile</b>.</li>
@@ -96,8 +119,8 @@ languages:
   p1: Español <span class='lang-desc'>(Nativo)</span>
   p2: Catalan <span class='lang-desc'>(Nativo)</span>
   p3: Inglés <span class='lang-desc'>(Fluido)</span>
-  p4: Portugués <span class='lang-desc'>(Básico)</span>
-  p5: Francés <span class='lang-desc'>(Básico)</span>
+#  p4: Portugués <span class='lang-desc'>(Básico)</span>
+#  p5: Francés <span class='lang-desc'>(Básico)</span>
 
 projects:
   title: Proyectos
@@ -105,6 +128,6 @@ projects:
   liebre: Una gema de Ruby que se encarga de la comunicación con RabbitMQ.
   resque: Una pequeña contribución para soportar Resque hooks en este plugin para Resque.
   sneakers: Una pequeña contribución para añadir cabeceras a los mensajes de RabbitMQ que han dado error.
-  
+
 skills:
   title: Habilidades y Conocimientos

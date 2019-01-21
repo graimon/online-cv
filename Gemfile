@@ -17,6 +17,6 @@ gem "jekyll", "3.4.0"
 gem 'jekyll-multiple-languages-plugin'
 
 gem "jekyll-assets"
-gem "jekyll-pdf"
+#gem "jekyll-pdf"
 
 

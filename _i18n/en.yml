@@ -1,43 +1,66 @@
 site:
   title: "My Résumé"
   description: "My CV and Summary of my Career"
-  tagline: IT Team Manager / Consultant / Analist / Ruby Developer
+  tagline: Engineering Manager / Consultant / Analist / Ruby Developer
 
 career:
   title: Career Profile
-  p1: I like to define myself as an <b>IT and Digital Lover</b>. I began as an unexperienced programmer back in 2002 (15 years ago!) and been evolving since then to an <b>IT Manager and Team Leader</b>.
-  p2: I met Ruby on Rails framework in 2005 (version 0.9.x) and when I started developing with it I realized I had found a powerful Tool and Methodology I felt comfortable with. But I couldn't imagine the impact it has had in my career. 
-  p3: <b>I’ve been performing my work remotely for 3 years</b>, while travelling around <b>South America</b> for 2 years. Right now I’m <b>settled in Barcelona</b>, working with a team spread all around Spain and reporting to <b>headquarters in Madrid and London</b>.
-  p4: I've been involved in many different projects, using different languages, technologies and database engines. 
-  p5: I like to use <b>Agile methodologies</b> to plan and organize a project, but I always try to adjust the methodology to the type of team I’m working with.
-  p6: "I have experience in all phases of a project: <b>Analysis, Design, Development, Testing, Deployment and Continuous Evolution</b>."
-  p7: I also know about system requirements and installation, and have used many Cloud Providers and solved several scalability issues.
+  p1: I like to define myself as an <b>IT and Digital Lover</b>. I began as an unexperienced programmer back in 2002 (17 years ago!) and been evolving since then to an <b>Engineering Manager</b>.
+  p2: I met Ruby on Rails framework in 2005 (version 0.9.x) and when I started developing with it I realized I had found a powerful Tool and Methodology I felt comfortable with. But I couldn't imagine the impact it would mean to my career.
+  #p3: <b>I’ve been performing my work remotely for 3 years</b>, while travelling around <b>South America</b> for 2 years. Right now I’m <b>settled in Barcelona</b>, working with a team spread all around Spain and reporting to <b>headquarters in Madrid and London</b>.
+  p3: I've been involved in many different projects, using different languages, technologies and database engines.
+  p4: I like to use <b>Agile methodologies</b> to plan and organize a project, but I always try to adjust the methodology to the type of team I’m working with.
+  p5: "I have experience in all phases of a project: <b>Analysis, Design, Development, Testing, Deployment and Continuous Evolution</b>."
+  p6: I also know about system requirements and installation, and have used many Cloud Providers and solved several scalability issues.
+  p7: Currently, I have the privilege to apply my skills and experience in an non profit organisation, which mission is to promote the literacy and education with technology, <a href="https://worldreader.org" target="_blank">Worldreader</a>. On my actual role, I'm in charge of all the API's and Back-office services that support several movile apps (own and third parties) with the help of an excelent team based in <b>Barcelona and Accra (Ghana).</b>
 
 education:
   title: Education
   mgti: Master in Digital and IT Management
   mgti_at: La Salle (Ramon Llull University) @ Barcelona
   ie: Informatics Engineer
-  ie_at: Barcelona School of Informatics (FIB - UPC) 
+  ie_at: Barcelona School of Informatics (FIB - UPC)
 
 experiences:
   title: Experiences
   present: Present
+
+  worldreader:
+    title: Engineering Manager
+    p1: Worldreader is an NGO which mission is to build a world where <b>everyone has access to books</b>. With the use of technology, it is possible to lower costs and deliver quality reading material to rural zones in developing countries.
+    p2: We have several Android apps (i.e. <a href="https://play.google.com/store/apps/details?id=com.worldreader" target="_blank">Worldreader</a>) with a free collection of more than 43.000 titles in 43 languages.
+    p3: Likewise, we have projects deploid in countries like Ghana, Kenia, South Africa, India and Jordan, among many others. Each one of them with different needs, in rural environments with few or none conectivity that make us develop and implement effective technical solutions to deliver our books through tablets.
+    p4: Among with a small team of 4 members, based in Barcelona and Accra, we are in charge of mantaining and developing the API's that serve the different mobile apps and third party clients.
+    p5: "I've been leading a re-engineering process of the sistems, setting up a basement that allows to quickly implement the constanty changing needs of the org, as well as to grow and scale in readers. Focusing in good practices as:
+    <ul>
+      <li>Source code changeability</li>
+      <li>Continous Integration</li>
+      <li>Microservice architecture</li>
+      <li>System monitoring</li>
+    </ul>"
+    p6: "Our current Stack is:
+    <ul>
+      <li>NodeJS</li>
+      <li>Angular 7</li>
+      <li>PostgreSQL</li>
+      <li>AWS (CodePipeline, CodeBuild, Elastic Beanstalk, RDS, ...)</li>
+    </ul>"
+
   iadbox:
     title: IT Manager and Lead Programmer
-    p1: Along with an <b>excellent team</b> of between 6 and 8 members, we’ve been developing an <b>unintrusive marketing and advertising mobile platform</b> to be embedded in <b>Android and iOS apps, as well as in Mobile Websites</b>.
-    p2: This platform identifies each unique user of the App or Website and delivers exclusive content to him/her in the form of an Inbox. 
-    p3: While writing this résumé, we have around <b>70 million users</b>, processing a mean of <b>3,000 requests per minute</b>, with peaks of use of upto <b>20,000 rpm</b>.
-    p4: Everything is controlled from the backend where one can segment users by more than <b>50 different filters</b>, build rich media messages and publish them to its users, obtaining detailed reports of each campaign.
-    p5: "We’ve been using a <b>Microservice Architecture</b>, building small services to solve each one of the challenges we’ve been facing. 
-Using: 
+    p1: Along with an <b>excellent team</b> of between 6 and 8 members, we developed an <b>unintrusive marketing and advertising mobile platform</b> to be embedded in <b>Android and iOS apps, as well as in Mobile Websites</b>.
+    p2: This platform identified each unique user of the App or Website and delivered exclusive content to him/her in the form of an Inbox.
+    p3: We had upto <b>70 million users</b>, processing a mean of <b>3,000 requests per minute</b>, with peaks of use of upto <b>20,000 rpm</b>.
+    p4: Everything was controlled from the backend where one could segment users by more than <b>50 different filters</b>, build rich media messages and publish them to its users, obtaining detailed reports of each campaign.
+    p5: "We had used a <b>Microservice Architecture</b>, building small services to solve each one of the challenges we were facing.
+Using:
 <ul>
 <li>Several Programming languages: <b>Ruby, Java and Elixir</b></li>
 <li>Several Database engines: <b>MySQL, PostgreSQL and MongoDB</b></li>
 <li>Different API communication protocols: <b>HTTP and RabbitMQ</b></li>
 </ul>"
-    p6: All this platform has been deployed on <b>Amazon AWS</b>, using several small instances, <b>autoscaling</b> when necessary and <b>load balancing</b> requests. All these services are deployed using <b>Jenkins</b>. We’ve been able to build a <b>robust, scalable and cost effective platform</b>.
-    p7: "Specifically, my functions have been:
+    p6: All this platform was deployed on <b>Amazon AWS</b>, using several small instances, <b>autoscaling</b> when necessary and <b>load balancing</b> requests. All these services were deployed using <b>Jenkins</b>. We’ve been able to build a <b>robust, scalable and cost effective platform</b>.
+    p7: "Specifically, my functions were:
 <ul>
 <li>Manage the team and projects, <b>prioritizing the tasks</b> of each member of the team. </li>
 <li>Plan projects and deliverables using <b>Agile methodologies</b>.</li>
@@ -51,8 +74,8 @@ Using:
 
   qustodian:
     title: Senior Software Engineer
-    p1: Qustodian is a <b>mobile App</b> (for iOS and Android) that is used to receive personalized Advertisements and Offers and <b>remunerate users</b> for it. 
-    p2: In the Internet advertisement industry there are a lot of players making profit of our digital profiles without our consent or control. 
+    p1: Qustodian is a <b>mobile App</b> (for iOS and Android) that is used to receive personalized Advertisements and Offers and <b>remunerate users</b> for it.
+    p2: In the Internet advertisement industry there are a lot of players making profit of our digital profiles without our consent or control.
     p3: The goal of Qustodian is to <b>guard users’ profiles</b>, serve only agreed and meaningful advertisements, <b>give control to the user</b> to what he or she wants to see and pay him or her back as a sign of gratitude for watching the advertisement.
     p4: <b>My role</b> in this project was to <b>analyze, develop and maintain the platform's Backend</b> using <b>Ruby On Rails and MySQL</b>, building complex features and communicating through an API with the mobile apps. I started as the <b>first technician</b> in the company, and end up with a Team of 6 developers, being always involved in the <b>key technical decisions</b>.
     p5: For more info about Qustodian App visit <a href='http://en.qustodian.com'>en.qustodian.com</a>.
@@ -106,6 +129,6 @@ projects:
   liebre: A Ruby gem that handles RabbitMQ Consumers and RPCs.
   resque: A little contribution to support Resque hooks in this Reque plugin.
   sneakers: A little contribution adding headers to messages that entered in the error queue.
-  
+
 skills:
   title: Skills &amp; Proficiency

@@ -12,7 +12,7 @@ career:
   p4: I like to use <b>Agile methodologies</b> to plan and organize a project, but I always try to adjust the methodology to the type of team I’m working with.
   p5: "I have experience in all phases of a project: <b>Analysis, Design, Development, Testing, Deployment and Continuous Evolution</b>."
   p6: I also know about system requirements and installation, and have used many Cloud Providers and solved several scalability issues.
-  p7: Currently, I have the privilege to apply my skills and experience in an non profit organisation, which mission is to promote the literacy and education with technology, <a href="https://worldreader.org" target="_blank">Worldreader</a>. On my actual role, I'm in charge of all the API's and Back-office services that support several movile apps (own and third parties) with the help of an excelent team based in <b>Barcelona and Accra (Ghana).</b>
+  p7: Currently, I have the privilege to apply my skills and experience in an non profit organisation, which mission is to promote the literacy and education with technology, <a href="https://worldreader.org" target="_blank">Worldreader</a>. On my actual role, I'm in charge of all the API's and Back-office services that support several mobile apps (own and third parties) with the help of an excelent team based in <b>Barcelona and Accra (Ghana).</b>
 
 education:
   title: Education
@@ -30,11 +30,11 @@ experiences:
     p1: Worldreader is an NGO which mission is to build a world where <b>everyone has access to books</b>. With the use of technology, it is possible to lower costs and deliver quality reading material to rural zones in developing countries.
     p2: We have several Android apps (i.e. <a href="https://play.google.com/store/apps/details?id=com.worldreader" target="_blank">Worldreader</a>) with a free collection of more than 43.000 titles in 43 languages.
     p3: Likewise, we have projects deploid in countries like Ghana, Kenia, South Africa, India and Jordan, among many others. Each one of them with different needs, in rural environments with few or none conectivity that make us develop and implement effective technical solutions to deliver our books through tablets.
-    p4: Among with a small team of 4 members, based in Barcelona and Accra, we are in charge of mantaining and developing the API's that serve the different mobile apps and third party clients.
-    p5: "I've been leading a re-engineering process of the sistems, setting up a basement that allows to quickly implement the constanty changing needs of the org, as well as to grow and scale in readers. Focusing in good practices as:
+    p4: Among with a small team of 4 members, based in Barcelona and Accra, we are in charge of maintaining and developing the API's that serve the different mobile apps and third party clients.
+    p5: "I've been leading a re-engineering process of the systems, setting up a basement that allows to quickly implement the constantly changing needs of the org, as well as to grow and scale in readers. Focusing in good practices as:
     <ul>
       <li>Source code changeability</li>
-      <li>Continous Integration</li>
+      <li>Continuous Integration</li>
       <li>Microservice architecture</li>
       <li>System monitoring</li>
     </ul>"
@@ -48,7 +48,7 @@ experiences:
 
   iadbox:
     title: IT Manager and Lead Programmer
-    p1: Along with an <b>excellent team</b> of between 6 and 8 members, we developed an <b>unintrusive marketing and advertising mobile platform</b> to be embedded in <b>Android and iOS apps, as well as in Mobile Websites</b>.
+    p1: Among with an <b>excellent team</b> of between 6 and 8 members, we developed an <b>unintrusive marketing and advertising mobile platform</b> to be embedded in <b>Android and iOS apps, as well as in Mobile Websites</b>.
     p2: This platform identified each unique user of the App or Website and delivered exclusive content to him/her in the form of an Inbox.
     p3: We had upto <b>70 million users</b>, processing a mean of <b>3,000 requests per minute</b>, with peaks of use of upto <b>20,000 rpm</b>.
     p4: Everything was controlled from the backend where one could segment users by more than <b>50 different filters</b>, build rich media messages and publish them to its users, obtaining detailed reports of each campaign.
@@ -63,7 +63,7 @@ Using:
     p7: "Specifically, my functions were:
 <ul>
 <li>Manage the team and projects, <b>prioritizing the tasks</b> of each member of the team. </li>
-<li>Plan projects and deliverables using <b>Agile methodologies</b>.</li>
+<li>Plan projects and deliverable using <b>Agile methodologies</b>.</li>
 <li>Analyze and make <b>key technical decisions</b>.</li>
 <li>Empower the use of <b>Test Driven Development</b>.</li>
 <li>Develop and maintain most of the <b>Ruby and Java</b> services.</li>
@@ -91,7 +91,7 @@ Using:
 <li>Develop a template to build mobile websites, serving video and images, encoding videos for each device using ffmpeg, and serving them via streaming or progressive download. This template was used to build several mobile websites, including TV channels, and other video oriented sites. Developed using Ruby on Rails.</li>
 <li>Develop of a tool for combining 2 videos (3gp encoding) in 1 at runtime, it was used to dynamically add advertisements to the videos before the real content of the video. Something similar to what Youtube does now. Developed with C.</li>
 <li>Develop the Backend for iSports, an iPhone app, that showed Real Time scores on various sporting events. It basically consumed plenty of XML data and transform it using XSLT.</li>
-<li>Develop of the web app http://myfanflash.com where one can sign up to follow and get news and updates of several leagues, teams and players. Accomplished by the ingestion of thousands of RSS feeds, parsing its contents and feeding a Solr (documental) database. Developed using Ruby on Rails.</li>
+<li>Develop of the web app http://myfanflash.com where one can sign up to follow and get news and updates of several leagues, teams and players. Accomplished by the ingestion of thousands of RSS feeds, parsing its contents and feeding a Solr (documents) database. Developed using Ruby on Rails.</li>
 </ul>"
     p5: "Other responsibilities:
 <ul>

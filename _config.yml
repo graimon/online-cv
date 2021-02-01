@@ -31,3 +31,5 @@ exclude_from_localizations: ["javascript", "images", "css"]
 #Update all the sections by editing the files inside _includes folder.
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-assets
+  - jekyll-pdf

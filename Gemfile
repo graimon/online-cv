@@ -17,6 +17,6 @@ gem "jekyll", ">=3.8.5"
 gem 'jekyll-multiple-languages-plugin'
 
 gem "jekyll-assets"
-#gem "jekyll-pdf"
+gem "jekyll-pdf", git: "https://github.com/m1racoli/jekyll-pdf", branch: "fix-digest-gem"
 
 

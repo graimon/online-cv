@@ -1,40 +1,38 @@
-This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
+# Online CV
 
+Personal CV/resume website built with Jekyll. Live at **https://cv.rayware.ninja**
 
-I have made this into a Jekyll Theme.
-**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
+Based on the [Online CV Jekyll Theme](http://webjeda.com/online-cv/) by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 
-The default theme would look like this
+## Quick Start
 
-![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme.png)
+```bash
+# Install dependencies
+bundle install
 
-The theme is responsive
+# Local development
+bundle exec jekyll serve
+# Visit http://localhost:4000
 
-![online cv responsive Jekyll theme](/assets/images/online-cv-responsive-jekyll-theme.png)
+# Build for production
+bundle exec jekyll build
+```
 
-There are 6 color schemes available
+## Deployment
 
-![online cv Jekyll theme](/assets/images/online-cv-jekyll-theme-2.png)
+The built site is deployed via the `graimon.github.io` repository:
 
-# Installation: 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+```bash
+bundle exec jekyll build
+cp -R _site/* ../graimon.github.io/
+cd ../graimon.github.io
+git add . && git commit -m "Update CV" && git push
+```
 
-[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
+## Content Editing
 
+- **English content:** `_i18n/en.yml`
+- **Spanish content:** `_i18n/es.yml`
+- **Site metadata:** `_config.yml`
 
-## How to delete old **gh-pages** branch?
-After forking the repository, click on **branches**.
-
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
-
-Delete ``gh-pages`` branch.
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
-
-You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
-
-![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
-
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted. If not select a branch as source.
-
-
-Check out for more themes: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes)
+See [CLAUDE.md](CLAUDE.md) for detailed documentation.

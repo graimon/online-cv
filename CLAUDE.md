@@ -109,32 +109,42 @@ All CV content is managed in `_i18n/*.yml` files:
 ## Build Output
 
 - **Development server:** `http://localhost:4000` (hot-reload on file changes)
-- **Production build:** Outputs to `_site/` (git-ignored)
-- **GitHub Pages:** Deploy `gh-pages` branch for automatic publishing
+- **Production build:** Outputs to `_site/` (git-ignored), then copied to `graimon.github.io` for deployment
 
 ## Deployment to GitHub Pages
 
-Deployment is **fully automated** via GitHub Actions. Simply:
+The site is deployed to **https://cv.rayware.ninja** via the `graimon.github.io` repository.
 
-1. **Make changes and push to master:**
+### Deployment Process
+
+1. **Build the site locally:**
 ```bash
+bundle exec jekyll build
+```
+
+2. **Copy the built files to the deployment repo:**
+```bash
+cp -R _site/* ../graimon.github.io/
+```
+Note: Be careful to preserve any files in `graimon.github.io` that don't exist in `_site/` (e.g., `CNAME`, PDF files in `assets/`).
+
+3. **Commit and push the deployment repo:**
+```bash
+cd ../graimon.github.io
 git add .
-git commit -m "Your changes"
+git commit -m "Update CV"
 git push origin master
 ```
 
-2. **GitHub Actions automatically:**
-   - Builds the Jekyll site (with `bundle exec jekyll build`)
-   - Uploads the `_site/` artifacts
-   - Deploys to GitHub Pages
+The site will be live at https://cv.rayware.ninja within seconds of pushing.
 
-The site will be live at your GitHub Pages URL within seconds of pushing to master. Monitor the workflow status in the **Actions** tab on GitHub.
+### Why This Setup?
 
-**Manual build for local testing:**
-If you want to build locally before pushing:
+The custom domain `cv.rayware.ninja` is configured on the `graimon.github.io` repository (the user site), which serves content at the root URL without a subpath. The `online-cv` repository contains the Jekyll source code, while `graimon.github.io` contains the built static files.
+
+**Local preview:**
 ```bash
-bundle exec jekyll build    # Generates _site/
-bundle exec jekyll serve    # Local preview at http://localhost:4000
+bundle exec jekyll serve    # Preview at http://localhost:4000
 ```
 
 ## Dependencies
@@ -147,14 +157,10 @@ bundle exec jekyll serve    # Local preview at http://localhost:4000
 - ~~`jekyll-assets`~~ - Not compatible with Jekyll 4.x; use alternative static asset solutions if needed
 - ~~`jekyll-pdf`~~ - Upstream fork missing commit; use external PDF generation if needed
 
-## GitHub Actions Deployment
+## Repository Structure
 
-A GitHub Actions workflow is configured in `.github/workflows/pages.yml` that automatically:
-- Builds the Jekyll site on push to master
-- Uploads artifacts to GitHub Pages
-- Deploys the built site to GitHub Pages
-
-This workflow handles all deployment automatically—just push to master and the site builds and deploys.
+- **`online-cv`** (this repo): Jekyll source code, templates, and content
+- **`graimon.github.io`**: Built static files served at https://cv.rayware.ninja
 
 ## Notes for Future Development
 

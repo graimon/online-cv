@@ -9,14 +9,15 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+gem "jekyll", "~> 4.3"
+gem "jekyll-multiple-languages-plugin", "~> 1.5"
 
-gem "pry"
+group :development do
+  gem "pry"
+end
 
-gem "jekyll", ">=3.8.5"
-
-gem 'jekyll-multiple-languages-plugin'
-
-gem "jekyll-assets"
-gem "jekyll-pdf", git: "https://github.com/m1racoli/jekyll-pdf", branch: "fix-digest-gem"
-
+# Note: jekyll-assets and jekyll-pdf were removed due to compatibility issues:
+# - jekyll-assets: Not compatible with Jekyll 4.x and modern Ruby versions
+# - jekyll-pdf: Upstream dependency issue with missing commit
+# Consider alternative solutions if PDF export is needed in the future.
 

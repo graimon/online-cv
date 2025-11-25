@@ -114,53 +114,47 @@ All CV content is managed in `_i18n/*.yml` files:
 
 ## Deployment to GitHub Pages
 
-The site is deployed to GitHub Pages using the `gh-pages` branch. Follow this process:
+Deployment is **fully automated** via GitHub Actions. Simply:
 
-**1. Make changes on the `master` branch:**
+1. **Make changes and push to master:**
 ```bash
-# Edit content, make commits as usual
 git add .
 git commit -m "Your changes"
-```
-
-**2. Build the static site:**
-```bash
-bundle exec jekyll build
-```
-This generates the complete static site in the `_site/` directory (language variants in subdirectories).
-
-**3. Switch to gh-pages and deploy:**
-```bash
-git checkout gh-pages
-
-# Copy the built site to the root of gh-pages
-cp -r _site/* .
-
-# Commit and push
-git add -A
-git commit -m "Deploy: [Description of changes]"
-git push origin gh-pages
-
-# Switch back to master
-git checkout master
-```
-
-**4. Push master to keep it in sync:**
-```bash
 git push origin master
 ```
 
-The site will be live at your GitHub Pages URL within seconds.
+2. **GitHub Actions automatically:**
+   - Builds the Jekyll site (with `bundle exec jekyll build`)
+   - Uploads the `_site/` artifacts
+   - Deploys to GitHub Pages
+
+The site will be live at your GitHub Pages URL within seconds of pushing to master. Monitor the workflow status in the **Actions** tab on GitHub.
+
+**Manual build for local testing:**
+If you want to build locally before pushing:
+```bash
+bundle exec jekyll build    # Generates _site/
+bundle exec jekyll serve    # Local preview at http://localhost:4000
+```
 
 ## Dependencies
 
-Note: `jekyll-assets` and `jekyll-pdf` are currently commented out in the Gemfile and `_config.yml` due to compatibility issues with recent Ruby versions. The core site builds and deploys successfully without them.
-
-- `jekyll` - Static site generator
-- `jekyll-multiple-languages-plugin` - Multi-language support
-- ~~`jekyll-assets`~~ (disabled - version incompatibility)
-- ~~`jekyll-pdf`~~ (disabled - upstream fork missing commit)
+- `jekyll` (~> 4.3) - Static site generator (modern version for compatibility with Ruby 3.0+)
+- `jekyll-multiple-languages-plugin` (~> 1.5) - Multi-language support
 - `pry` - Ruby debugging (development)
+
+**Gems removed** (due to compatibility issues):
+- ~~`jekyll-assets`~~ - Not compatible with Jekyll 4.x; use alternative static asset solutions if needed
+- ~~`jekyll-pdf`~~ - Upstream fork missing commit; use external PDF generation if needed
+
+## GitHub Actions Deployment
+
+A GitHub Actions workflow is configured in `.github/workflows/pages.yml` that automatically:
+- Builds the Jekyll site on push to master
+- Uploads artifacts to GitHub Pages
+- Deploys the built site to GitHub Pages
+
+This workflow handles all deployment automatically—just push to master and the site builds and deploys.
 
 ## Notes for Future Development
 

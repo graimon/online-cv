@@ -112,12 +112,54 @@ All CV content is managed in `_i18n/*.yml` files:
 - **Production build:** Outputs to `_site/` (git-ignored)
 - **GitHub Pages:** Deploy `gh-pages` branch for automatic publishing
 
+## Deployment to GitHub Pages
+
+The site is deployed to GitHub Pages using the `gh-pages` branch. Follow this process:
+
+**1. Make changes on the `master` branch:**
+```bash
+# Edit content, make commits as usual
+git add .
+git commit -m "Your changes"
+```
+
+**2. Build the static site:**
+```bash
+bundle exec jekyll build
+```
+This generates the complete static site in the `_site/` directory (language variants in subdirectories).
+
+**3. Switch to gh-pages and deploy:**
+```bash
+git checkout gh-pages
+
+# Copy the built site to the root of gh-pages
+cp -r _site/* .
+
+# Commit and push
+git add -A
+git commit -m "Deploy: [Description of changes]"
+git push origin gh-pages
+
+# Switch back to master
+git checkout master
+```
+
+**4. Push master to keep it in sync:**
+```bash
+git push origin master
+```
+
+The site will be live at your GitHub Pages URL within seconds.
+
 ## Dependencies
+
+Note: `jekyll-assets` and `jekyll-pdf` are currently commented out in the Gemfile and `_config.yml` due to compatibility issues with recent Ruby versions. The core site builds and deploys successfully without them.
 
 - `jekyll` - Static site generator
 - `jekyll-multiple-languages-plugin` - Multi-language support
-- `jekyll-assets` - Asset pipeline
-- `jekyll-pdf` - PDF export
+- ~~`jekyll-assets`~~ (disabled - version incompatibility)
+- ~~`jekyll-pdf`~~ (disabled - upstream fork missing commit)
 - `pry` - Ruby debugging (development)
 
 ## Notes for Future Development
